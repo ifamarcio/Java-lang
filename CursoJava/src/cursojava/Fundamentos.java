@@ -57,7 +57,42 @@ public class Fundamentos {
         	System.out.println("alistamento militar obrigatorio");
         }
 
-
+        System.out.println("");
+        System.out.println("exmplo 2 - uso de do 'if - else'");
+        if (idade <18) {
+        	System.out.println(" menor de idade");
+        }else {
+        	System.out.println("maior de idade");
+        }
+        System.out.println("");
+        System.out.println("exmplo 3 - uso  do 'else -if'");
+        if(idade <16) {
+        System.out.println("proibido votar");}
+        else if (idade >=18 && idade <=70) {
+        	System.out.println("obrigatorio votar");
+        }else if(idade == 16 || idade ==17 || idade>70) {
+        	System.out.println("voto facultativo");
+        }
+        System.out.println("");
+        System.out.println("exmplo 4 - uso de do 'switch case'");
+        System.out.println("1. Cadatro de clientes");
+        System.out.println("2. Cadastro de usuarios");
+        System.out.println("3. Relatorios");
+        int opcao = 1;
+        switch(opcao) {
+        case 1:
+        	System.out.println("CLIENTES");
+        		break;
+        case 2: 
+        	System.out.println(" USUARIOS");
+        	break;
+        case 3:
+        	System.out.println(" RELATORIOS");
+        	break;
+        	default :
+        		System.out.println("opção invalida");
+        		break;
+        }
 
 	}
 
