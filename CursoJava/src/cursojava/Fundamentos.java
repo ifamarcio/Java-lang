@@ -46,8 +46,16 @@ public class Fundamentos {
         i--;
         System.out.println("i--         |i ="+i);
 
-
-
+        System.out.println("_________________________________");
+		System.out.println("");
+		System.out.println("ESTRUTURAS DE CONTROLE");
+		System.out.println("");
+		System.out.println("estrutura de controle condicional");
+		System.out.println("");
+        System.out.println("exemplo 1 - uso do 'if'");
+        if(sexo = = 'M') {
+        	System.out.println("alistamento militar obrigatorio");
+        }
 
 
 
