@@ -31,7 +31,11 @@ public class Fundamentos {
 		double i = 10;
 		System.out.println("operadores aritimeticos e seus atributos");
 		System.out.println("exemplos:");
-		System.out.println("i = "+);
+		System.out.println("i = "+i);
+		System.out.println("i+="+i+"+5 | i ="+(i+5));
+		System.out.println("correto");
+
+
 	}
 
 }
